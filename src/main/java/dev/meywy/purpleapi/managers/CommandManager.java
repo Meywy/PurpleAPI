@@ -42,4 +42,3 @@ public abstract class CommandManager extends BukkitCommand {
 
     public abstract List<String> onTabComplete(CommandSender sender, String[] args);
 }
-
