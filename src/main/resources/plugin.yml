@@ -1,0 +1,7 @@
+name: purpleapi
+version: '1.0'
+main: dev.meywy.purpleapi.Purpleapi
+api-version: '1.21'
+authors: [ Meywy ]
+description: API for Purple Plugins
+website: meywy.dev
