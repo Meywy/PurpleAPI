@@ -10,8 +10,5 @@ public final class PurpleAPI extends JavaPlugin {
         // Plugin startup logic
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+    public static String getStatus() { return "Connected"; }
 }
