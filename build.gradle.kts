@@ -51,6 +51,8 @@ kotlin {
     }
 }
 
+
+
 tasks {
     shadowJar {
         minimize()
@@ -64,6 +66,14 @@ tasks {
     runServer {
         minecraftVersion(minecraftVersion)
         downloadPlugins {}
+    }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
     }
 }
 
