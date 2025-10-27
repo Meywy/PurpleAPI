@@ -5,6 +5,7 @@ version = "1.0"
 
 plugins {
     kotlin("jvm") version "2.2.21"
+    id("maven-publish")
     id("io.papermc.paperweight.userdev") version "2.0.0-beta.19" // PaperAPI
     id("com.gradleup.shadow") version "8.3.7" // ShadowJar
     id("xyz.jpenilla.run-paper") version "2.3.1" // Run Paper Server
